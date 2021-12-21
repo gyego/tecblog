@@ -1,0 +1,135 @@
+/* Linpar formatações padrão */
+* {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ body {
+     font-size: 1em;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     background: #292828;  
+ }
+ 
+ /*
+ **** layout ****
+ */
+ #area-cabecalho3 {
+    background:  url(../imagens/fundo.webp) repeat-x;
+     /* background-color: #03466d; */
+     padding: 10px;
+     text-align: center;
+ }
+ 
+ #area-logo, #area-menu {
+     padding: 10px;
+ }
+ 
+ #area-principal3 {
+     width: 940px;
+     margin: 0 auto;
+     padding: 15px;
+ }
+
+ #area-postagens3 {
+     width: 660px;
+     float: left;
+ }
+
+ #area-lateral3 {
+    width: 240px;
+    float: right;
+}
+
+.postagem3{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    box-shadow: 3px 3px 3px #096092;
+    border-radius: 10px;
+}
+
+.conteudo-lateral3{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px; 
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.postagem-lateral3 {
+    font-size: 0.8em;
+    padding: 5px;
+    width: 200px;
+    /* border: 1px solid; */
+} 
+
+.postagem-lateral3 img {
+    width: 200px;
+    clear: both; 
+    text-align: center;
+    padding: 5px;
+}
+
+/*
+**** Formatação do menu ****
+*/
+#area-cabecalho a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #096092;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho3 a:link, #area-cabecalho3 a:visited {
+    color: #fff;
+    padding: 8px 12px;
+}
+
+#area-cabecalho3 a:hover {
+    color: #096092;
+    background: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(39, 22, 22);
+}
+
+/*
+**** Formatações em geral ****
+*/
+h1 {
+    color: #fffafa;
+    font-size: 3.5em;
+    text-shadow: 3px 3px 3px rgb(7, 7, 7);
+}
+
+h2 {
+   color:#096092 ;
+   text-shadow: 2px 2px 2px #7c7a7a; 
+}
+
+h3 {
+    color:  #807a7a;
+    background: #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 3px 3px 3px #096092;
+}
+
+.branco3{
+    color:#096092 ;
+    text-shadow: 3px 3px 3px #fdf9f9;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}

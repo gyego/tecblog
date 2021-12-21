@@ -1,0 +1,146 @@
+/* Linpar formatações padrão */
+* {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ body {
+     font-size: 1em;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     background: #e6e6e6;
+ }
+ 
+ /*
+ **** layout ****
+ */
+ #area-cabecalho5 {
+     background-color: #943041;
+     padding: 15px;
+     text-align: center;
+ }
+ 
+ #area-logo, #area-menu {
+     padding: 10px;
+ }
+ 
+ #area-principal5 {
+     width: 940px;
+     margin: 0 auto;
+     padding: 15px;
+ }
+
+ #area-postagens5 {
+     width: 660px;
+     float: left;
+ }
+
+ #area-lateral5 {
+    width: 240px;
+    float: right;
+}
+
+.postagem5{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    box-shadow: 3px 3px 3px #da0d2f;
+    border-radius: 10px;
+}
+
+.conteudo-lateral5{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px; 
+    border-radius: 10px;
+}
+
+.postagem-lateral5 {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc; 
+} 
+
+#rodape5 {
+    clear: both; 
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #d60b0b;
+}
+
+/*
+**** Formatação do menu ****
+*/
+a {
+    text-decoration: none;
+}
+
+.postagem-lateral5 a{
+    border: 2px solid rgb(114, 109, 109);
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    
+    }
+
+a:link, a:visited {
+    color: #ff0000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho5 a:link, #area-cabecalho5 a:visited {
+    color: #fff;
+    padding: 8px 12px;
+}
+
+#area-cabecalho5 a:hover {
+    color: #ee0000;
+    background: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(46, 30, 30);
+}
+
+.postagem-lateral5 a:hover{
+    background-color: rgb(228, 121, 121);
+}
+
+/*
+**** Formatações em geral ****
+*/
+h1 {
+    color: #ffffff;
+    font-size: 2.5em;
+    text-shadow: 3px 3px 3px rgb(255, 0, 0);
+}
+
+h2 {
+   color:#920910 ;
+   text-shadow: 2px 2px 2px #7c7a7a; 
+}
+
+h3 {
+    color:  #807a7a;
+    background: #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 3px 3px 3px #d60b0b;
+}
+
+.branco5{
+    color:#ff0404 ;
+    text-shadow: 3px 3px 3px #fdf9f9;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
